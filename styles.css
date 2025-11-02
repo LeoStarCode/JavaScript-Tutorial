@@ -1,0 +1,48 @@
+/* Some general styling */
+body {
+    font-family: sans-serif, serif;
+    color: peru;
+    background-color: bisque;
+}
+
+/* Make the page fill the full viewport */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Center everything inside the parent container */
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the inner box */
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* A bit of spacing and styling for buttons and input */
+input, button {
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: peru;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: bisque;
+}
